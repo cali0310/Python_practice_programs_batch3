@@ -1,13 +1,13 @@
-# pseudocode  
+print("This program will print the result when the first number minus all remaining numbers.")
 
-# initialize list num  
+num = []
 
-# loop from 0 to 9  
-    # input number and store in list num  
-# end loop  
+for i in range(10):
+    number = float(input(f"Enter number {i+1}: "))
+    num.append(number)
 
-# sum_remaining = sum of numbers except the first number  
-# print sum_remaining  
+remaining = sum(num[1:])
+print("Sum of the numbers except the first number is", remaining)
 
-# result = first number - sum_remaining  
-# print result  
+result = num[0] - remaining
+print("\nThe result is", result)
