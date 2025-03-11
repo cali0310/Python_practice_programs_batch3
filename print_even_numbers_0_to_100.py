@@ -1,5 +1,6 @@
-# pseudocode  
+print("This program will print the even numbers from 0 to 100.")
 
-# loop from 0 to 100 with step 2  
-#     print number  
-# end loop  
+i = 0
+while i <= 100:
+    print(i, end=' ')
+    i += 2  
