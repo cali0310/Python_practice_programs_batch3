@@ -1,8 +1,6 @@
-# pseudocode  
-
-# initialize sum = 0  
-# loop from 1 to 10  
-#     input number  
-#     sum = sum + number  
-# end loop  
-# print sum 
+print("This program will print the sum of ten numbers.\n")
+numbers = []  
+for i in range(10):  
+    num = float(input(f"Enter number {i+1}: ")  )
+    numbers.append(num)  
+print("\nThe sum of the numbers is", sum(numbers))
