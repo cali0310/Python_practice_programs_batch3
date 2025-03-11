@@ -1,6 +1,9 @@
-# pseudocode  
+print("This program will print the numbers from 0 to 100 except numbers ending in 0.")
 
-# loop from 0 to 100  
-#     if number does not end in 0  
-#         print number  
-# end loop 
+i = 0
+
+while i <= 100:
+    if i % 10 != 0:
+        print(i, end=' ')
+    
+    i += 1
