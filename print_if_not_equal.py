@@ -1,8 +1,9 @@
-# pseudocode
+print("This program will print NOT EQUAL when the numbers are not the same.\n")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-# input num1  
-# input num2  
-# if num1 is not equal to num2  
-    #print "the entered numbers are not equal"  
-# else
-    #print "the entered numbers are equal"  
+if num1!=num2:
+    print("\nThe entered numbers are NOT EQUAL")
+
+else:
+    print("\nThe entered numbers are EQUAL")
