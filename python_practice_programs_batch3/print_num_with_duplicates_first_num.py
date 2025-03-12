@@ -1,9 +1,6 @@
-# pseudocode
+print("This program will display all numbers. For numbers with duplicate, display only the first entry.\n")
 
-# input num1 to 10
-# store all numbers in a list
-# create an empty set seen_numbers
-# loop through list
-    # if current number is not in seen_numbers
-        # print current number
-        # add current number to seen_numbers
+numbers = []
+duplicates = set()
+for i in range(10):
+    num = int(input(f"Enter number {i+1}: "))
