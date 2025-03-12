@@ -1,8 +1,8 @@
-# pseudocode
+print("This program will print all the numbers starting from 0 to 100 except numbers ending in zero or ending in five.\n")
 
-# initialize number = 0  
-# loop while number is less than or equal to 100  
-    # if number does not end in 0 and does not end in 5  
-        # print number  
-        # increment number  
-# end loop
+i = 0
+
+while i <= 100:  
+    if i % 10 != 0 and i % 10 != 5:  
+        print(i, end=' ')  
+    i += 1
