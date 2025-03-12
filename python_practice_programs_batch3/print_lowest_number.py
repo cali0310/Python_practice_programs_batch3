@@ -1,9 +1,20 @@
-# pseudocode
+numbers = []
 
-# input num1 to 10
-# create a list numbers
-# loop until invalid input
-    # add num to numbers
-    # input num1 to 10
-# find the minimum value in numbers
-# print the minimum value
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        numbers.append(num)
+
+    except ValueError:
+        break
+
+if numbers:
+    lowest = numbers[0]
+    
+    for num in numbers:
+        if num < lowest:
+            lowest = num
+    
+    print("Lowest number:", lowest)
+else:
+    print("No numbers entered")
